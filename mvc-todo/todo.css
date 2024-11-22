@@ -1,0 +1,69 @@
+
+
+#centered{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#todo-table {
+  width: 80%;
+  margin-top: 20px;
+  border: 5px solid #e6e2d3;
+  border-radius: 10px;
+  padding: 10px;
+  border-spacing: 0px 10px;
+}
+
+#todo-table th,
+#todo-table td {
+  padding: 8px;
+  border: none;
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+}
+#todo-table th{
+  font-size: 30px;
+}
+
+#todo-table td button:last-child {
+  margin-left: 30px; 
+}
+
+#todo-table tbody tr {
+  background-color: #e6e2d3;
+}
+
+
+
+#todo-table thead th {
+  background-color: white;
+  text-align: center;
+}
+
+
+
+#add-row-btn{
+  width: 130px;
+  background-color: #008cba;
+  color: white;
+  padding: 13px;
+  font-size: 14px;
+  border: #008cba;
+  border-radius: 5px;
+}
+
+#add-row-btn:hover{
+  background-color: #04bbf8;
+  cursor: pointer;
+}
+
+#todo-table input[type="text"],
+#todo-table input[type="date"] {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+

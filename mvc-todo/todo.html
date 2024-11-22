@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <form id="todo-form">
-      <input type="text" id="new-todo" required />
-      <button type="submit">Submit Todo</button>
-    </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="./todo.css" />
+</head>
+<body>
+  <div id="centered">
+    <button id="add-row-btn">Add New Event</button>
+    <table id="todo-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="todo-list"></tbody>
+    </table>
+  </div>
 
-    <div>
-      <ul id="todo-list"></ul>
-    </div>
-
-    <script src="./todoAPI.js"></script>
-    <script src="./todo.js"></script>
-  </body>
+  <script src="./todoAPI.js"></script>
+  <script src="./todo.js"></script>
+</body>
 </html>

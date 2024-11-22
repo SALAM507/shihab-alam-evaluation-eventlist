@@ -1,5 +1,5 @@
 const todoAPI = (() => {
-  const TODO_API_URL = "http://localhost:3000/todos";
+  const TODO_API_URL = "http://localhost:3000/events";
   async function getTodos() {
     // GET request to the server
     const response = await fetch(TODO_API_URL);
